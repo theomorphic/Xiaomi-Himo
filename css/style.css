@@ -172,4 +172,38 @@ body {
   font-size: 12px;
   line-height: 15px;
   margin: auto 0;
+}
+
+.info {
+  padding-bottom: 150px;
+}
+
+.info__inner {
+  display: flex;
+}
+
+.info__img {
+  margin-right: 60px;
+  flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info__list {
+  flex-basis: 490px;
+}
+
+.info__item + .info__item {
+  padding-top: 50px;
+}
+
+.info__item-title {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.info__item-text {
+  max-width: 450px;
 }/*# sourceMappingURL=style.css.map */
