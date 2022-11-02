@@ -2,14 +2,12 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-  margin: 0;
   list-style: none;
-}
-ul li {
-  padding-left: 0;
 }
 
 a {
@@ -206,4 +204,57 @@ body {
 
 .info__item-text {
   max-width: 450px;
+}
+
+.characteristics {
+  padding-bottom: 150px;
+}
+
+.characteristics__title {
+  margin: 0 0 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.characteristics__inner {
+  display: flex;
+}
+
+.characteristics__img {
+  align-self: center;
+}
+
+.characteristics__items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.characteristics__list + .characteristics__list {
+  padding-top: 30px;
+}
+
+.characteristics__list-title {
+  padding: 2px 0 3px;
+  background-color: #131313;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.characteristics__line {
+  display: flex;
+  padding-top: 5px;
+}
+
+.characteristics__name {
+  flex-basis: 285px;
+  padding-right: 25px;
+}
+
+.characteristics__desc {
+  flex-basis: 285px;
 }/*# sourceMappingURL=style.css.map */
