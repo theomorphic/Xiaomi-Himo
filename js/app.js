@@ -1,6 +1,6 @@
 $(function(){
 
-	$('.bike-slider').slick({
+	$('.bike-slider, .slider__items').slick({
 		arrows: false,
 		dots: true,
 		fade: true,
