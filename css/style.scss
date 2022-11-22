@@ -278,3 +278,107 @@ body{
 	padding-left: 48px;
 	cursor:grab;
 }
+
+.price{
+	padding-bottom: 100px;
+}
+
+.price__form{
+	max-width: 420px;
+}
+
+.form__title{
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+
+	margin-bottom: 41px;
+}
+
+.form__text{
+	max-width: 300px;
+	margin-bottom: 30px;
+}
+
+.form__input-name,
+.form__input-phone{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #131313;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form__input-text{
+	color: #6F6F6F;
+	opacity: 0.5;
+}
+
+.form__input-text{
+	margin-bottom: 10px;
+}
+
+.form__label-box{
+	display: flex;
+}
+
+.form__input-radio{
+	position: absolute;
+	width: 1px;
+	height: 1px;overflow: hidden;
+	clip: rect(0 0 0 0);
+
+	//это всё просто убирает их
+}
+
+.form__input-radio:checked + .form__bike{
+	display: block;
+}
+
+.price__inner{
+	position: relative;
+}
+
+.form__bike{
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.form__radio-style{
+	border-radius: 30px;
+	width: 80px;
+	height: 12px;
+
+}
+
+.form__radio-style--grey{
+	background: #6F6F6F;
+}
+.form__radio-style--white{
+	background: #fff;
+	border: 1px solid #6F6F6F;
+	margin-left: 23px;
+}
+.form__radio-style--red{
+	background: #FF4040;
+	margin-left: 23px;
+
+}
+
+.form__btn{
+	margin-top: 50px;
+	padding: 28px 81px;
+	background-color: #131313;
+	color: #fff;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 1.1em;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
