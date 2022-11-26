@@ -103,7 +103,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-color: #131313;
-  padding: 28px 81px;
+  padding: 28px 71px 28px 81px;
   transition: all 0.3s;
 }
 
@@ -375,7 +375,7 @@ body {
 
 .form__btn {
   margin-top: 50px;
-  padding: 28px 81px;
+  padding: 28px 71px 28px 81px;
   background-color: #131313;
   color: #fff;
   font-size: 20px;
@@ -388,6 +388,28 @@ body {
 
 .form__bike-price {
   font-size: 32px;
-  line-height: 39px;
   text-transform: lowercase;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 221px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF4040;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.form__bike-price::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  border: 1px solid #FF4040;
+  border-radius: 50%;
+  top: 10px;
+  left: 0;
 }/*# sourceMappingURL=style.css.map */
