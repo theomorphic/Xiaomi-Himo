@@ -384,4 +384,10 @@ body {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+}
+
+.form__bike-price {
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: lowercase;
 }/*# sourceMappingURL=style.css.map */
