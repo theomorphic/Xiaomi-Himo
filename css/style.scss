@@ -6,6 +6,10 @@
 	padding: 0;
 }
 
+// html{
+// 	scroll-behavior: smooth; //крутяк для скролла
+// }
+
 ul{
 	list-style: none;
 }
@@ -59,7 +63,7 @@ body{
 }
 
 .bike{
-	padding: 100px 0 150px;
+	padding: 100px 0 100px;
 }
 
 .bike__inner{
@@ -177,7 +181,9 @@ body{
 }
 
 .info{
-	padding-bottom: 150px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+
 }
 
 .info__inner{
@@ -210,6 +216,7 @@ body{
 }
 
 .characteristics{
+	padding-top: 50px;
 	padding-bottom: 150px;
 }
 
@@ -381,6 +388,11 @@ body{
 	text-transform: uppercase;
 	border: none;
 	cursor: pointer;
+	transition: all .3s;
+}
+
+.form__btn:hover{
+	background-color: #FF4040;
 }
 
 .form__bike-price{
