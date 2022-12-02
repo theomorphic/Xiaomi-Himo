@@ -504,6 +504,29 @@ body {
   .menu {
     margin-right: 0;
   }
+  .info {
+    padding-bottom: 50px;
+  }
+  .characteristics {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  .characteristics__inner {
+    flex-wrap: wrap;
+  }
+  .characteristics__img {
+    order: -1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .characteristics__items {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  .characteristics__name,
+.characteristics__desc {
+    flex-basis: 50%;
+  }
 }
 @media (max-width: 675px) {
   .bike__title {
