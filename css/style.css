@@ -509,6 +509,12 @@ body {
   .slider__img {
     height: 400px;
   }
+  .form__bike-img {
+    width: 500px;
+  }
+  .form__bike {
+    top: 55px;
+  }
 }
 @media (max-width: 991px) {
   .menu {

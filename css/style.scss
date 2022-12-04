@@ -467,8 +467,7 @@ body{
 	.slider__img{
 	object-fit: cover;
 	height: 550px;
-}
-
+	}
 }
 
 @media (max-width: 1125px){
@@ -521,6 +520,14 @@ body{
 
 	.slider__img{
 		height: 400px;
+	}
+
+	.form__bike-img{
+		width: 500px;
+	}
+
+	.form__bike{
+		top: 55px;
 	}
 }
 
