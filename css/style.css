@@ -641,6 +641,20 @@ body {
   .form__bike-price::after {
     display: none;
   }
+  .footer__inner {
+    display: block;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .footer__socials {
+    padding: 15px 0;
+  }
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (max-width: 490px) {
   .slider__img {
